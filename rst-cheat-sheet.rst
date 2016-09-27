@@ -240,12 +240,40 @@ Section - Sub Sub Section
 Code
 ============================================================
 
+Inline
+------
+
+.. code-block:: bash
+
+    ``RST`` is a great ``markup`` language
+
+``RST`` is a great ``markup`` language
+
+
+Blocks
+------
+
+.. code-block:: bash
+
+    .. code-block:: javascript
+
+        // this will inherit JS syntax highlighting
+
+.. code-block:: javascript
+
+    const MARKUP = true;
+
+.. epigraph::
+
+   By replacing ``javascript`` for the language of your choice, the syntax highlighting will change accordingly
+
 
 ============================================================
 Extras
 ============================================================
 
-
+Table of Contents
+-----------------
 
 ============================================================
 Resources
