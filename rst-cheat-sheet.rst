@@ -31,18 +31,21 @@ Recommended Plugins - Atom
 Text
 ============================================================
 
+Italics
+-------
+
 .. code-block:: bash
 
     *italic text*
-    **bold text**
-
-Italic text
-...........
 
 *This is example italic text*
 
-Bold text
-.........
+Bold
+----
+
+.. code-block:: bash
+
+    **bold text**
 
 **This is example bold text**
 
