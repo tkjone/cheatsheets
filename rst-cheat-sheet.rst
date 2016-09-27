@@ -2,6 +2,7 @@
 Restructured Text Cheat Sheet
 *****************************
 
+Welcome to restructured text
 
 
 Editor Configurations
@@ -29,6 +30,10 @@ Code
 
 
 Extras
+==============================
+
+
+Resources
 ==============================
 
 
