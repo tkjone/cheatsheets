@@ -2,7 +2,7 @@
 Restructured Text Cheat Sheet
 *****************************
 
-Welcome to my curated RST cheat sheet.  I hope to provide a one-stop-shop for RST knowledge with the focus being on practical application.  This document will be a vanilla restructured text cheat sheet.  This means that what I am documenting should work everywhere.
+Welcome to my curated RST cheat sheet.  This is a general, but opinionated, approach to writing in RST.  This document will be a vanilla restructured text cheat sheet.  There are actually many different ways to write RST, but in the end it is the level of consistency that you bring to your RST that will truly help you.
 
 
 .. contents::
@@ -54,14 +54,10 @@ Bold
 Lists
 ============================================================
 
-Flat Lists
-----------
+Flat Lists - Bullets
+--------------------
 
 .. code-block:: bash
-
-    # ----------------------------
-    # flat list
-    # ----------------------------
 
     * bullet point 1
     * bullet point 2
@@ -70,10 +66,19 @@ Flat Lists
 
   - bullet point 1.1
 
+Flat Lists - Numbered
+---------------------
 
+.. code-block:: bash
 
-Nested Lists
-------------
+    1.  First item in list
+    2.  Second item in list
+
+1.  First item in list
+2.  Second item in list
+
+Nested Lists - bullets
+----------------------
 
 .. code-block:: bash
 
@@ -100,9 +105,136 @@ Images
 
 
 ============================================================
+Links
+============================================================
+
+External Links - Single
+-----------------------
+
+.. code-block:: bash
+
+    Google_
+
+    .. _Google: http://www.google.ca
+
+Google_
+
+.. _Google: http://www.google.ca
+
+.. epigraph::
+
+   Use for a single word
+
+
+External Links - Phrase
+-----------------------
+
+.. code-block:: bash
+
+    `Google is a search engine`_
+
+    .. _Google: http://www.google.ca
+
+`Google is a search engine`_
+
+.. _Google is a search engine: http://www.google.ca
+
+.. epigraph::
+
+   Use for a phrase
+
+External Links - Sentences
+--------------------------
+
+.. code-block:: bash
+
+    JavaScript_ is `awesome`__.
+
+    .. _JavaScript: https://github.com/sorrycc/awesome-javascript
+
+    __ JavaScript_
+
+
+JavaScript_ is `awesome`__.
+
+.. _JavaScript: https://github.com/sorrycc/awesome-javascript
+
+__ JavaScript_
+
+.. epigraph::
+
+   Use when you want to highlight multiple words or phrases in a sentence / paragrah
+
+
+============================================================
 Headers and Quotes
 ============================================================
 
+Section - Title
+---------------
+
+.. code-block:: bash
+
+    **************
+    READEME TITLE
+    **************
+
+.. epigraph::
+
+   I prefer to only use one of these per RST file
+
+
+Section - Chapter
+-----------------
+
+.. code-block:: bash
+
+    ================
+    README CHAPTER
+    ================
+
+.. epigraph::
+
+   Use as many as you like.
+
+
+Section - Section
+-----------------
+
+.. code-block:: bash
+
+    READEME SECTION
+    ---------------
+
+.. epigraph::
+
+   Use as many as you like.
+
+
+Section - Sub Section
+---------------------
+
+.. code-block:: bash
+
+    READEME SUB SECTION
+    ~~~~~~~~~~~~~~~~~~~
+
+.. epigraph::
+
+   Use as many as you like.
+
+
+Section - Sub Sub Section
+-------------------------
+
+.. code-block:: bash
+
+    READEME SUB SUB SECTION
+    .......................
+
+.. epigraph::
+
+   Use as many as you like.
 
 ============================================================
 Code
@@ -113,6 +245,8 @@ Code
 Extras
 ============================================================
 
+
+
 ============================================================
 Resources
 ============================================================
@@ -121,6 +255,7 @@ Resources
 .. _OmniMarkupPreviewer: https://packagecontrol.io/packages/OmniMarkupPreviewer
 .. _language-restructuredtext: https://atom.io/packages/language-restructuredtext
 .. _rst-preview-pandoc: https://atom.io/packages/rst-preview-pandoc
+.. _Google: http://www.google.ca
 
 ============================================================
 Special Thanks
