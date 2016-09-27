@@ -54,6 +54,9 @@ Bold
 Lists
 ============================================================
 
+Flat Lists
+----------
+
 .. code-block:: bash
 
     # ----------------------------
@@ -63,28 +66,33 @@ Lists
     * bullet point 1
     * bullet point 2
 
-    # ----------------------------
-    # nested list
-    # ----------------------------
+* bullet point 1
+
+  - bullet point 1.1
+
+
+
+Nested Lists
+------------
+
+.. code-block:: bash
 
     * bullet point 1
 
-      - bullet point 1 - subpoint 1
+      - bullet point 1.1
 
     * bullet point 2
 
-      - bullet point 2 - subpoint 1
-
+      - bullet point 2.1
 
 
 * bullet point 1
 
-  - bullet point 1 - subpoint 1
-
+  - bullet point 1.1
 
 * bullet point 2
 
-  - bullet point 2 - subpoint 1
+  - bullet point 2.1
 
 ============================================================
 Images
