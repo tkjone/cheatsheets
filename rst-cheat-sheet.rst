@@ -36,14 +36,52 @@ Text
     *italic text*
     **bold text**
 
-* *Italic Text*
-* **Bold Text**
+Italic text
+...........
+
+*This is example italic text*
+
+Bold text
+.........
+
+**This is example bold text**
 
 
 ============================================================
 Lists
 ============================================================
 
+.. code-block:: bash
+
+    # ----------------------------
+    # flat list
+    # ----------------------------
+
+    * bullet point 1
+    * bullet point 2
+
+    # ----------------------------
+    # nested list
+    # ----------------------------
+
+    * bullet point 1
+
+      - bullet point 1 - subpoint 1
+
+    * bullet point 2
+
+      - bullet point 2 - subpoint 1
+
+
+
+* bullet point 1
+
+  - bullet point 1 - subpoint 1
+
+
+* bullet point 2
+
+  - bullet point 2 - subpoint 1
 
 ============================================================
 Images
