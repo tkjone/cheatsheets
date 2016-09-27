@@ -275,6 +275,17 @@ Extras
 Table of Contents
 -----------------
 
+.. code-block:: bash
+
+    .. contents::
+       :depth: 2
+       :local:
+
+.. epigraph::
+
+   Add this to the top of your RST file.  Note that we use the ``local`` directive.  This tells the table of contents to only include headers below the physical placement of the above code.  See this documents source code as an example
+
+
 ============================================================
 Resources
 ============================================================
