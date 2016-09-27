@@ -103,6 +103,14 @@ Nested Lists - bullets
 Images
 ============================================================
 
+Inline
+------
+
+.. code-block:: bash
+
+    .. image:: assets/giphy.gif
+
+.. image:: assets/giphy.gif
 
 ============================================================
 Links
